@@ -37,6 +37,13 @@ public struct SCToolTipView: View {
     
     var onTapGesture: (() -> ())
     
+    public init(description: String, arrowAlignment: SCToolTipArrowAlignment = .BottomCenter, showCancelButton: Bool = true, onTapGesture: @escaping () -> Void) {
+        self.description = description
+        self.arrowAlignment = arrowAlignment
+        self.showCancelButton = showCancelButton
+        self.onTapGesture = onTapGesture
+    }
+    
     public var body: some View {
         
         ZStack {
