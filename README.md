@@ -37,10 +37,13 @@ The Swift Package Manager is a tool for automating the distribution of Swift cod
 
 Once you have your Swift package set up, adding the SDK as a dependency is as easy as adding it to the dependencies value of your Package.swift.
 
+```swift
 dependencies: [
     .package(url: "https://github.com/JEJEMEME/SCToolTip.git")
 ]
+```
 or File -> Add Packages... -> Search https://github.com/JEJEMEME/SCToolTip.git -> Install
+                                        
 
 # Contribution
 Contributions are welcome! If you'd like to improve SCToolTipView, please feel free to fork the repository, make changes, and submit a pull request.
