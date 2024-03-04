@@ -15,9 +15,9 @@ Bottom: Left, Center, Right
 - Contains a closure that can receive touch actions.
 
 # Requirements
-iOS 15.0 or later
-Swift 5.5 or later
-Xcode 14.0 or later
+- iOS 15.0 or later
+- Swift 5.5 or later
+- Xcode 14.0 or later
 # Usage
 ```swift
 import SCToolTip
