@@ -42,7 +42,7 @@ dependencies: [
     .package(url: "https://github.com/JEJEMEME/SCToolTip.git")
 ]
 ```
-or File -> Add Packages... -> Search https://github.com/JEJEMEME/SCToolTip.git -> Install
+or `File` -> `Add Packages...` -> Search `https://github.com/JEJEMEME/SCToolTip.git` -> Install
                                         
 
 # Contribution
