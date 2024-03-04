@@ -2,7 +2,7 @@ import SwiftUI
 
 @available(iOS 15.0, *)
 extension SCToolTipView {
-    enum SCToolTipArrowAlignment {
+    public enum SCToolTipArrowAlignment {
         case TopLeft
         case TopCenter
         case TopRight
@@ -29,7 +29,7 @@ extension SCToolTipView {
 }
 
 @available(iOS 15.0, *)
-struct SCToolTipView: View {
+public struct SCToolTipView: View {
     
     var description: String
     var arrowAlignment: SCToolTipArrowAlignment = .BottomCenter
@@ -37,7 +37,7 @@ struct SCToolTipView: View {
     
     var onTapGesture: (() -> ())
     
-    var body: some View {
+    public var body: some View {
         
         ZStack {
             
